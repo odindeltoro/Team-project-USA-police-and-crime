@@ -51,7 +51,7 @@ d3.json("latlongpolice.json", function(response) {
         .bindPopup(`<h3>Officer name :${response[i].name}</h3>
         <h4>Location: ${response[i].address}</h4>
         <h4>Date: ${response[i].date}</h4>
-        <h4>Date: ${response[i].date}</h4>
+        <h4>Armed: ${response[i].armed}</h4>
         ` ));
     }
 
