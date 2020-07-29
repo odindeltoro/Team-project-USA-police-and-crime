@@ -1,3 +1,9 @@
+// d3.json('/readData').then(json=>{
+//     console.log("-----")
+//     console.log(json)
+//     console.log("-----")
+// });
+
 // Automatically resizes the chart
 function makeResponsive() {
 
@@ -118,7 +124,7 @@ regions.forEach(function(region, i){
         .text(region);
 });
 
-d3.json('data/statesCrimeArrest.json').then(function(data){
+d3.json('../static/data/statesCrimeArrest.json').then(function(data){
     console.log(data);
 
    // Clean data
