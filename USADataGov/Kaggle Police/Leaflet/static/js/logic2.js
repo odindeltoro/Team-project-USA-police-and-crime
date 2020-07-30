@@ -17,7 +17,7 @@ let streets = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
     maxZoom: 18,
     zoomOffset: -1,
     id: "mapbox/streets-v11",
-    accessToken: API_KEY
+    accessToken: "pk.eyJ1IjoiamFycmEzNSIsImEiOiJja2NtbGo4bnYwMmhlMnhzNWdwdHp0YmlmIn0.T01hDuL35D46m5BsYQQuYQ"
 });
 let satellite = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
     attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
@@ -25,7 +25,7 @@ let satellite = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}
     maxZoom: 18,
     zoomOffset: -1,
     id: "mapbox/satellite-streets-v11",
-    accessToken: API_KEY
+    accessToken: "pk.eyJ1IjoiamFycmEzNSIsImEiOiJja2NtbGo4bnYwMmhlMnhzNWdwdHp0YmlmIn0.T01hDuL35D46m5BsYQQuYQ"
 });
 let dark = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
     attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
@@ -33,7 +33,7 @@ let dark = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?
     maxZoom: 18,
     zoomOffset: -1,
     id: "mapbox/dark-v10",
-    accessToken: API_KEY
+    accessToken: "pk.eyJ1IjoiamFycmEzNSIsImEiOiJja2NtbGo4bnYwMmhlMnhzNWdwdHp0YmlmIn0.T01hDuL35D46m5BsYQQuYQ"
 });
 
 // Creating map object
