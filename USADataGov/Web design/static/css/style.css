@@ -1,0 +1,75 @@
+html {
+	min-height: 100%;
+	min-width: 100%;
+  }
+  
+body {
+    background-color: snow;
+	font-family: 'Times New Roman', Times, serif;
+  }
+
+nav.navbar {
+	background: linear-gradient(rgb(1, 44, 87), rgb(1, 44, 87),rgb(1, 44, 87));
+	color: snow;
+	top: 10;
+	width: 100%; 
+	height: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.dropdown-menu {
+	background: linear-gradient(rgb(1, 44, 87), rgb(1, 44, 87),rgb(1, 44, 87));
+	position: relative;
+	display: inline-block;
+}
+
+nav .navbar-nav li a.dropdown-item {
+	color: snow;
+}
+
+.navbar-brand {
+	height: 60px;
+	padding: 5px 0px;
+	font-size: 100px;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-left: 30px;
+	color: snow;
+}
+
+#footer {
+	bottom: 10;
+	width: 100%;
+	height: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background: linear-gradient(rgb(192, 0, 0), rgb(192, 0, 0),rgb(192, 0, 0));
+	color: snow; 
+}
+
+.row{
+    margin-bottom: 30px;
+}
+@media(max-width: 700px){
+
+    nav .navbar-collapse.collapse {
+        clear: both;
+        float: left;
+    }
+    nav .navbar-brand {
+        margin-left: 20px;
+    }
+    .navbar-collapse {
+        padding-left: 0;
+    }
+    ul.navbar-nav {
+        padding-left: 20px;
+    }
+    nav .navbar-nav li a {
+        display: block;
+
+    }
+ 
+}

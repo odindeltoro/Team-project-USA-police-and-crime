@@ -1,0 +1,70 @@
+html,
+body {
+  background     : url("../img/bullets.jpg");
+  background-size: 100% 100%;
+}
+
+#map, #map2{
+  height: 600px;
+  width : 500px;
+}
+
+.header {
+  background: url("../img/banner.jpg");
+  height    : 200px;
+  color     : #476A6F;
+
+}
+
+h1 {
+  padding-top     : 50px;
+  padding-bottom  : 102px;
+  background-color: hsla(64, 100%, 55%, 0.40);
+}
+
+
+.info {
+  padding      : 6px 8px;
+  font         : 14px/16px Arial, Helvetica, sans-serif;
+  background   : white;
+  background   : rgba(255, 255, 255, 0.8);
+  box-shadow   : 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.info h4 {
+  margin: 0 0 5px;
+  color : #777;
+}
+
+.legend {
+  line-height: 18px;
+  color      : #555;
+}
+
+.legend i {
+  width       : 18px;
+  height      : 18px;
+  float       : left;
+  margin-right: 0px;
+  opacity     : 0.7;
+}
+
+.info.legend.leaflet-control {
+  width: 50px;
+}
+
+h4,
+.form-group>label {
+  color: white;
+}
+
+.container{
+  margin-right: 0px;
+  margin-left: 50px;
+  padding:0px
+}
+
+.col-xs-12 > h4 {
+  margin-left: 50px;
+}
