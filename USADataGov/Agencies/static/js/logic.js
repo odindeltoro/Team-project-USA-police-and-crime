@@ -9,7 +9,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     id: 'mapbox/streets-v11',
     tileSize: 512,
     zoomOffset: -1,
-    accessToken: "pk.eyJ1Ijoiam9yaGFtIiwiYSI6ImNrY21saWE3aDAyZmsyem8zOTNxaG55dnQifQ.RsfgIN_7R9gBxw-6fpBoww"
+    accessToken: API_KEY
 }).addTo(mymap);
 
 d3.json("../agencies_outputfile.json").then(data =>{
