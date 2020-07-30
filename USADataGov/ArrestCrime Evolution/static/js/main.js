@@ -1,4 +1,4 @@
-// d3.json('/readData').then(json=>{
+// d3.json('/readData',function(json){
 //     console.log("-----")
 //     console.log(json)
 //     console.log("-----")
