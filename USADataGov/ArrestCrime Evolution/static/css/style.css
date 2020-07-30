@@ -16,18 +16,21 @@ body {
 }
 
 nav.navbar {
-	background: linear-gradient(rgb(82, 110, 133), rgb(27, 79, 122),rgb(52, 129, 192));
+	background: linear-gradient(rgb(1, 44, 87), rgb(1, 44, 87),rgb(1, 44, 87));
 	color: snow;
 	top: 10;
-	width: 100%; /* Set the fixed height of the footer here */
-	height: 10px;
+	width: 100%; 
+	height: 40px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 .dropdown-menu {
-	background: linear-gradient(rgb(82, 110, 133), rgb(27, 79, 122),rgb(52, 129, 192));
-	
+	background: linear-gradient(rgb(1, 44, 87), rgb(1, 44, 87),rgb(1, 44, 87));
+	position: relative;
+	display: inline-block;
+	margin-left: 200px;
+
 }
 
 nav .navbar-nav li a.dropdown-item {
@@ -37,8 +40,9 @@ nav .navbar-nav li a.dropdown-item {
 .navbar-brand {
 	height: 60px;
 	padding: 5px 0px;
-	font-size: 30px;
-    font-weight: 50;
+	font-size: 100px;
+	font-weight: 600;
+	margin-top: -10px;
 	margin-left: 30px;
 	color: snow;
 }
@@ -65,14 +69,38 @@ nav .navbar-nav li a.dropdown-item {
 }
 
 #footer {
-	bottom: 0;
-	width: 100%; /* Set the fixed height of the footer here */
-	height: 10px;
+	bottom: 10;
+	width: 100%;
+	height: 40px;
 	padding-top: 10px;
-	padding-bottom: 25px;
+	padding-bottom: 10px;
 	text-align: center;
-	background: linear-gradient(rgb(82, 110, 133), rgb(27, 79, 122),rgb(52, 129, 192));
+	background: linear-gradient(rgb(192, 0, 0), rgb(192, 0, 0),rgb(192, 0, 0));
 	color: snow; 
 }
 
+.row{
+    margin-bottom: 30px;
+}
+@media(max-width: 700px){
+
+    nav .navbar-collapse.collapse {
+        clear: both;
+        float: left;
+    }
+    nav .navbar-brand {
+        margin-left: 20px;
+    }
+    .navbar-collapse {
+        padding-left: 0;
+    }
+    ul.navbar-nav {
+        padding-left: 20px;
+    }
+    nav .navbar-nav li a {
+        display: block;
+
+    }
+ 
+}
 
