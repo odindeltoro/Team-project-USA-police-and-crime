@@ -10,7 +10,7 @@ let light = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}
     maxZoom: 18,
     zoomOffset: -1,
     id: "mapbox/streets-v11",
-    accessToken: apiKey
+    accessToken: "pk.eyJ1Ijoib2RpbmRlbHRvcm8iLCJhIjoiY2tkOThwN3poMGNzYjJwcGVkczJpdnZsOSJ9.K1nz_mnoI6YfOJw2I_ryMw"
 });
 let dark = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
     attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
@@ -18,7 +18,7 @@ let dark = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?
     maxZoom: 18,
     zoomOffset: -1,
     id: "mapbox/dark-v10",
-    accessToken: apiKey
+    accessToken: "pk.eyJ1Ijoib2RpbmRlbHRvcm8iLCJhIjoiY2tkOThwN3poMGNzYjJwcGVkczJpdnZsOSJ9.K1nz_mnoI6YfOJw2I_ryMw"
 });
 // Adding tile layer to the map
 let streets = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
@@ -27,7 +27,7 @@ let streets = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
   maxZoom: 18,
   zoomOffset: -1,
   id: "mapbox/streets-v11",
-  accessToken: apiKey
+  accessToken: "pk.eyJ1Ijoib2RpbmRlbHRvcm8iLCJhIjoiY2tkOThwN3poMGNzYjJwcGVkczJpdnZsOSJ9.K1nz_mnoI6YfOJw2I_ryMw"
 }).addTo(myMap);
 
 d3.json("../latlongpolice.json", function(response) {
