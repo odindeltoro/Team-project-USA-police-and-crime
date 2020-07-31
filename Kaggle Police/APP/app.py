@@ -107,5 +107,35 @@ def consu(c):
 
     return datos4.to_json()
 
+@app.route("/search4/")
+def cons():
+    query5 = "select * from bernardo"
+    engine5=create_engine("postgresql+psycopg2://postgres:jaramillo35@/Prueba")
+    datos5 = pd.read_sql(query5, engine5)
+    
+    engine5.dispose()
+
+    return datos5.to_csv()
+
+@app.route("/search5/")
+def con():
+    query5 = "select * from bernardo1"
+    engine5=create_engine("postgresql+psycopg2://postgres:jaramillo35@/Prueba")
+    datos5 = pd.read_sql(query5, engine5)
+    
+    engine5.dispose()
+
+    return datos5.to_csv()
+
+@app.route("/search6/")
+def co():
+    query6 = "select * from bernardo2"
+    engine6=create_engine("postgresql+psycopg2://postgres:jaramillo35@/Prueba")
+    datos6 = pd.read_sql(query6, engine6)
+    
+    engine6.dispose()
+
+    return datos6.to_csv()
+
 if __name__ == "__main__":
     app.run()
