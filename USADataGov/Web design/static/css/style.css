@@ -1,6 +1,6 @@
 html {
-	max-height: 100%;
-	max-width: 100%;
+	min-height: 100%;
+	min-width: 100%;
   }
   
 body {
@@ -52,7 +52,7 @@ nav .navbar-nav li a.dropdown-item {
 .row{
     margin-bottom: 30px;
 }
-@media(max-width: 700px){
+@media(max-width: 1800px){
 
     nav .navbar-collapse.collapse {
         clear: both;
