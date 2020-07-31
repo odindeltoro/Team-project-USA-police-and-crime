@@ -70,7 +70,7 @@ h4,
   margin-left: 50px;
 } */
 
-#modify, #odin, #modify2{
+#modify, #odin, #modify2, #radar-chart, #polar-chart2{
   background-color: white;
   
 }
@@ -97,3 +97,11 @@ form > label {
   background: url("../img/footer.jpg");
   height: 200px;
 }
+
+#polar-chart2, #radar-chart{
+  display: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
