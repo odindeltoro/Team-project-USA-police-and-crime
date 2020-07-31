@@ -1,7 +1,6 @@
 html {
 	min-height: 100%;
 	min-width: 100%;
-	font-size:100%;
   }
   
 body {
@@ -57,34 +56,14 @@ nav .navbar-nav li a.dropdown-item {
 /* Mobile */
 @media(max-width: 700px){
 
-	.navbar a:not(:first-child) {display: none;}
-  	.navbar a.icon {
-    float: right;
-    display: block;
-  }
-
-	.navbar-nav.responsive {position: relative;}
-  	.navbar-nav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-	.navbar-nav.responsive a {
-		float: none;
-		display: block;
-		text-align: left;
-	  }
-
-
-
     nav .navbar-collapse.collapse {
         clear: both;
         float: left;
     }
     nav .navbar-brand {
         margin-left: 20px;
-    }
+	}
+
     .navbar-collapse {
         padding-left: 0;
     }
@@ -92,7 +71,7 @@ nav .navbar-nav li a.dropdown-item {
         padding-left: 20px;
     }
     nav .navbar-nav li a {
-        display: block;
+        display: inline-block;
 
     }
  
