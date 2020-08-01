@@ -20,13 +20,13 @@
 
 * Arrests.
 
-***Dataset:*** The data is extracted fromKaggle in the following link 
+***Dataset:*** The data is extracted from Kaggle in the following link 
 [Police shootings](https://www.kaggle.com/mrmorj/data-police-shootings)
 
 ***Dataset premises:***  
 * Acummulated data from 01/01/2015 until 16/06/2020.
 
-***FBI API:*** The data is extracted from the  US Government Data FBI API in the following link
+***FBI API:*** The data is extracted from the US Government Data FBI API in the following link
 [FBI](https://api.data.gov/docs/fbi/)
 
 ***API premises:***  
