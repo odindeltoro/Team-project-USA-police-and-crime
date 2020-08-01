@@ -1,0 +1,12 @@
+[
+  {
+    "region_code": 0,
+    "region_name": "U.S. Territories",
+    "region_desc": "U.S. Territories"
+  },
+  { "region_code": 1, "region_name": "Northeast", "region_desc": "Region I" },
+  { "region_code": 2, "region_name": "Midwest", "region_desc": "Region II" },
+  { "region_code": 3, "region_name": "South", "region_desc": "Region III" },
+  { "region_code": 4, "region_name": "West", "region_desc": "Region IV" },
+  { "region_code": 99, "region_name": "Other", "region_desc": "Other" }
+]
